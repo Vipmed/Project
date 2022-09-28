@@ -193,3 +193,60 @@ margin-left: 9px;
     color: #FFFFFF;
     background: #6F2CFF 
 }*/
+
+
+
+
+@media screen and (max_width: 550px) {
+    .flex, .grow_flex{
+        flex-direction: column;
+    }
+
+    .container {
+        max-width: 500px;
+    }
+
+
+    .header{
+        gap: 30px;
+    }
+
+    .header_nav{
+        display: none;
+    }
+
+
+    .main{
+        text-align: center;
+    }
+
+    .main_title {
+        font-size: 48px;
+    line-height: 55px;
+    }
+
+    .main_text{
+        margin: 18px auto;
+    }
+    .main_img{
+        margin-top: 40px;
+    }
+
+    .grow{
+        gap: 30px;
+        margin: 60px auto;
+    }
+
+    .commerce_title{
+        margin-bottom: 40px;
+    }
+
+
+    .grow_title{
+        text-align: center;
+    }
+
+    .footer nav {
+        display: none;
+    }
+}
